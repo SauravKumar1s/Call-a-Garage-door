@@ -11,12 +11,15 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <BrandStrip />
-      <ServicesGrid />
-      <BeforeAfterShowcase />
       <ProcessSection />
+
+      {/* <BrandStrip /> */}
+      
+      <ServicesGrid /> 
+      <BeforeAfterShowcase />
+      {/* <ProcessSection /> */}
       <Testimonials />
-      <BlogPreview />
+      {/* <BlogPreview /> */}
       <CtaBanner />
     </>
   );

@@ -35,11 +35,11 @@ export default function BeforeAfterShowcase({ full = false }) {
           {list.map((p, i) => (
             <Reveal key={p.id} delay={i * 0.08}>
               <BeforeAfterSlider before={p.before} after={p.after} />
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <span className="font-mono text-[10px] font-semibold uppercase tracking-widest text-red">{p.tag}</span>
                 <h3 className="mt-1 font-display text-base font-bold uppercase tracking-tight text-ink">{p.title}</h3>
                 <p className="mt-1 text-sm leading-relaxed text-ink-soft/60">{p.note}</p>
-              </div>
+              </div> */}
             </Reveal>
           ))}
         </div>
