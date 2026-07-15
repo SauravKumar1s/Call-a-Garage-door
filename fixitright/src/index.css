@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-ink: #14171c;
+  --color-ink-soft: #2a2f38;
+  --color-paper: #faf9f6;
+  --color-panel: #eef0f1;
+  --color-panel-dark: #e3e6e8;
+  --color-red: #d42a2a;
+  --color-red-dark: #a81f1f;
+  --color-red-light: #ff5a4d;
+  --color-steel: #33495c;
+  --color-steel-light: #4d6a83;
+  --color-amber: #f2a93b;
+  --color-amber-dark: #d68e22;
+
+  --shadow-panel: 0 1px 0 rgba(20,23,28,0.06), 0 12px 30px -14px rgba(20,23,28,0.18);
+  --shadow-panel-lg: 0 24px 60px -20px rgba(20,23,28,0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-red);
+  color: white;
+}
+
+/* Slat texture used across the "signature" garage-door motif */
+.slat-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.055) 0px,
+    rgba(255,255,255,0.055) 2px,
+    transparent 2px,
+    transparent 34px
+  );
+}
+
+.slat-lines-dark {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.10) 0px,
+    rgba(0,0,0,0.10) 2px,
+    transparent 2px,
+    transparent 34px
+  );
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px var(--color-ink);
+  color: transparent;
+}
+
+.mask-fade-r {
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+}
+
+/* custom scrollbar for horizontal chip rows */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
