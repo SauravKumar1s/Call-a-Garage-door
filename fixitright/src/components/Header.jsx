@@ -111,7 +111,7 @@ export default function Header() {
           </div>
           <span className="leading-none">
        <span className="block font-display text-[14px] font-bold uppercase tracking-tight text-ink">
-  Call a <span className="text-red">Garage</span> Door
+  Call  <span className="text-red">Garage</span> Door
 </span>
             <span className="block font-mono text-[6px] uppercase tracking-[0.2em] text-ink-soft/60">
               Repair · Install · Same-day

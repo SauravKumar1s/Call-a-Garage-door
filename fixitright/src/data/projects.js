@@ -1,11 +1,11 @@
-import before1 from "../assets/7.png";
-import after1 from "../assets/8.png";
+import before1 from "../assets/10 (2).png";
+import after1 from "../assets/10 (1).png";
 import before2 from "../assets/3.png";
 import after2 from "../assets/4.png";
-import before3 from "../assets/5.png";
-import after3 from "../assets/6.png";
-import before4 from "../assets/6.png";
-import after4 from "../assets/6.png";
+import before3 from "../assets/12.png";
+import after3 from "../assets/11.png";
+import before4 from "../assets/14.png";
+import after4 from "../assets/13.png";
 
 export const projects = [
   {

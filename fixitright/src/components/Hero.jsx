@@ -31,7 +31,7 @@ const content = {
   bottomTagline: "RESIDENTIAL GARAGE DOOR REPAIR & REPLACEMENT EXPERTS",
 
   // 👇 ARRAY of Google reviews – now auto‑changing
-  googleReviews: [
+googleReviews: [
     {
       name: "Michael T.",
       rating: 5,
@@ -49,6 +49,49 @@ const content = {
       rating: 5,
       date: "1 month ago",
       text: "New door installation looks fantastic. The team was clean, polite, and finished ahead of schedule.",
+    },
+    // --- New Reviews ---
+    {
+      name: "Jessica M.",
+      rating: 5,
+      date: "1 week ago",
+      text: "My sensor was acting up and the door wouldn't close. They walked me through a quick fix over the phone, and when I needed a part, they installed it the next day. Great customer care.",
+    },
+    {
+      name: "Robert K.",
+      rating: 5,
+      date: "2 months ago",
+      text: "Replaced my old noisy opener with a new belt-drive model. It's so quiet now! The price was competitive and the work was top-notch.",
+    },
+    {
+      name: "Emily C.",
+      rating: 5,
+      date: "3 weeks ago",
+      text: "I was in a rush to get my door fixed before a big storm. They squeezed me into their schedule and got it done quickly. Very reliable.",
+    },
+    {
+      name: "James W.",
+      rating: 4,
+      date: "2 months ago",
+      text: "Fixed my cable that snapped off the drum. The tech explained what happened and made sure everything was balanced before he left. Good job.",
+    },
+    {
+      name: "Patricia S.",
+      rating: 5,
+      date: "1 month ago",
+      text: "Bought a custom wood door from them. The quality is incredible and the installation was flawless. They really transformed my curb appeal.",
+    },
+    {
+      name: "Christopher Y.",
+      rating: 5,
+      date: "1 week ago",
+      text: "They came out to do routine maintenance and lubricate the tracks. Very thorough and gave me tips on keeping it running smoothly. Worth every penny.",
+    },
+    {
+      name: "Amanda R.",
+      rating: 5,
+      date: "1 month ago",
+      text: "I accidentally backed into my garage door... They came the next morning and made it look brand new. I was so relieved!",
     },
   ],
 
@@ -428,7 +471,7 @@ export default function Hero() {
                     ))}
                   </div>
                   <p className="mt-1 text-2xl font-extrabold text-gray-900">4.9</p>
-                  <p className="text-sm font-medium text-gray-700">500+ Google Reviews</p>
+                  <p className="text-sm font-medium text-gray-700">350+ Google Reviews</p>
                 </div>
               </div>
 

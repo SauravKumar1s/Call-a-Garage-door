@@ -15,7 +15,7 @@ export default function Footer() {
           <span className="flex items-center gap-3">
 
             <span className="font-display text-lg font-bold uppercase tracking-tight text-ink">
-              Call a <span className="text-red">Garage</span> Door
+              Call <span className="text-red">Garage</span> Door
             </span>
           </span>
           <p className="mt-4 text-sm leading-relaxed text-ink-soft/70">
